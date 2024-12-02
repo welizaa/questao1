@@ -13,10 +13,10 @@ formulario.addEventListener("submit", (e) => {
     const media = (n1 + n2 + n3) / 3
 
     if (media >= 6){
-        situacao.innerText = "Parabéns + {nome}! Você foi muito bem! "
+        situacao.innerText = "Você foi muito bem! "
     situacao.style.color = "green"
 }else {
-    situacao.innerText = "Eita +{nome}! Você não atingiu a média... "
+    situacao.innerText = " Não atingiu a média. "
 situacao.style.color = "red"
 }
 respmedia.innerText = "Media das Notas + {media}"
